@@ -1,4 +1,4 @@
-import Layout, { siteTitle } from "../components/Layout";
+import Layout, { siteTitle, nombre } from "../components/Layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Head from "next/head";
@@ -13,7 +13,11 @@ export default function Home({ allPostsData }) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>Soy un chico nuevo en programacion</p>
+          <p>
+            Mi nombre es {nombre} soy un programador dando mis primeros pasos y
+            aprendiendo nuevas tecnologias para poder insertarme en el mundo de
+            la programacion
+          </p>
         </section>
         <section className={`${utilStyles.headingMg} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}> Blog </h2>
