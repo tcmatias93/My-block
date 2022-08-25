@@ -14,9 +14,7 @@ export default function Home({ allPostsData }) {
         </Head>
         <section className={utilStyles.headingMd}>
           <p>
-            Mi nombre es {nombre} soy un programador dando mis primeros pasos y
-            aprendiendo nuevas tecnologias para poder insertarme en el mundo de
-            la programacion
+            Mi nombre es {nombre} soy una profesional comprometida con los objetivos que establecen las empresas, con el fin de aplicar competencias profesionales que impacten en el desarrollo del negocio. Tengo 20 años de experiencia en el área contable, administrativa y financiera.
           </p>
         </section>
         <section className={`${utilStyles.headingMg} ${utilStyles.padding1px}`}>

@@ -4,7 +4,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import utilStyle from "../styles/utils.module.css";
 
-export const nombre = "Matias Torres";
+export const nombre = "Claudia Torres";
 export const siteTitle = "Block personal";
 
 export default function Layout({ children, home }) {
@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               property
-              src="/images/matias.jpg"
+              src="/images/claudia.jpg"
               className={utilStyle.borderCircle}
               height={144}
               width={144}
@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <Image
-                  src="/images/matias.jpg"
+                  src="/images/claudia.jpg"
                   className={utilStyle.borderCircle}
                   height={108}
                   width={108}
